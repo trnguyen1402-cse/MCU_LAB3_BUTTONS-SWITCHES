@@ -1,55 +1,21 @@
-# Prerequisites
+# Tránh lỗi khóa tệp Proteus khi switch branch
+*.pdsbak
+*.workspace
+*.~*
+*.DBK
+
+# Tệp biên dịch và thư mục nhị phân của STM32CubeIDE
+Debug/
+Release/
+*.o
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.su
 *.d
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
-
-# debug information files
-*.dwo
+# Tệp hệ thống
+Thumbs.db
+.DS_Store
